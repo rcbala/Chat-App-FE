@@ -1,0 +1,30 @@
+.message-input-fixed-bottom {
+    position: fixed;  
+    bottom: 0;
+    width: 50%;  
+    border: 2px solid gray;
+    border-radius: 8px;    
+    z-index: 1000;
+    
+    /* padding: 1rem; */
+}
+
+
+/* Message styles */
+
+.chat-message-main-div {
+    display: flex;
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.chat-end {
+    justify-content: flex-end;
+}
+
+.chat-start {
+    justify-content: flex-start;
+}
+.bg-blue-color{
+    background-color: aqua;
+}

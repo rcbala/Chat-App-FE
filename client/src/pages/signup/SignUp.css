@@ -1,0 +1,42 @@
+.signUp-container{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+}
+.SignUp-div{
+    width: 100%;
+        max-width: 500px;
+        background-color: rgba(75, 74, 74, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        border: 2px solid gray;
+        box-shadow: 0 4px 20px rgba(196, 7, 7, 0.856);
+        font-family: 'Poppins', sans-serif;
+}
+.SignUp-h1-title{
+    font-family: 'Poppins', sans-serif;
+        font-size: xx-large;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 20px;
+        color: aliceblue;
+}
+.signUp-a-tag{
+    text-decoration: none;
+        color: aliceblue;
+        font-weight: 500;
+        transition: color 1s ease;
+}
+.SignUp-Button{
+    display: flex;
+        justify-content: center;
+}
+.signUp-button-2{
+    width: 100%;
+}
+.signUp-a-tag:hover {
+    color: black;
+    transition: all 0.1s;
+}
